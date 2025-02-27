@@ -1,0 +1,27 @@
+{
+  "name": "feishu",
+  "version": "1.0.0",
+  "description": "## 项目简介 这是一个基于火山方舟DeepSeek R1 API开发的AI生活教练对话系统。通过与AI进行对话，用户可以获得个性化的建议和指导，帮助个人成长。",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easonxu77/feishu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easonxu77/feishu/issues"
+  },
+  "homepage": "https://github.com/easonxu77/feishu#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
