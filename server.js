@@ -14,7 +14,7 @@ app.use(express.static('public'));
 
 // 配置安全头
 app.use((req, res, next) => {
-    res.setHeader('Content-Security-Policy', "default-src 'self'; font-src 'self' data: *; img-src 'self' data: *");
+    res.setHeader('Content-Security-Policy', "default-src 'self'; connect-src 'self' *; font-src 'self' data: *; img-src 'self' data: *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'");
     next();
 });
 
