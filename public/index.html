@@ -567,7 +567,7 @@
                 const timeoutId = setTimeout(() => controller.abort(), 30000); // 30秒超时
 
                 // 发送消息到服务器
-                const response = await fetch('http://localhost:3000/chat', {
+                const response = await fetch('/chat', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
